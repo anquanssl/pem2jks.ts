@@ -1,5 +1,5 @@
 {
-  "name": "jks-ts",
+  "name": "pem2jks.ts",
   "version": "1.0.0",
   "main": "src/index.ts",
   "license": "MIT",
