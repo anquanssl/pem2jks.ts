@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "outDir": "dist/",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ES5",
+    "rootDir": "src",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "noImplicitAny": true,
+    "lib": [
+      "ES5",
+      "es2018",
+      "dom",
+      "ESNext"
+    ],
+    "paths": {
+      "buffer": [
+        "node_modules/buffer"
+      ],
+    }
+  },
+  "exclude": [
+    "build",
+    "node_modules"
+  ],
+  "ts-node": {
+    "esm": true
+  }
+}
